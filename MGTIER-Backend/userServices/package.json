@@ -1,0 +1,20 @@
+{
+  "name": "userservices",
+  "version": "1.0.0",
+  "description": "all user services",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "william",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cron": "^2.3.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "joi": "^17.9.1",
+    "mssql": "^9.1.1",
+    "nodemailer": "^6.9.1"
+  }
+}
